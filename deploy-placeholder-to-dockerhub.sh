@@ -1,7 +1,7 @@
 #!/bin/sh
 
 
-APP_PLACEHOLDER_IMAGE_NAME="dockersaturn/app-placeholder"
+APP_PLACEHOLDER_IMAGE_NAME="caprover/caprover-placeholder-app"
 
 echo "Deploying to Docker hub ..."
 
