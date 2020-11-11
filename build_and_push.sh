@@ -16,4 +16,4 @@ docker buildx create --name mybuilder
 docker buildx use mybuilder
 
 # linux/arm/v7 changed to linux/arm to be more generic
-docker buildx build --platform linux/amd64,linux/arm64,linux/arm -t $APP_PLACEHOLDER_IMAGE_NAME:latest --push .
+docker buildx build --platform linux/amd64,linux/arm64,linux/arm,linux/386 -t $APP_PLACEHOLDER_IMAGE_NAME:latest --push .
